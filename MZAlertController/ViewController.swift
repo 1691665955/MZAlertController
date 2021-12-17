@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     lazy var alertBtn: UIButton = {
         let btn = UIButton.init(type: .custom)
-        btn.frame = CGRect.init(x: (SCREEN_WIDTH - 180) / 2, y: 100, width: 180, height: 40)
+        btn.frame = CGRect.init(x: (SCREEN_WIDTH - 220) / 2, y: 100, width: 220, height: 40)
         btn.setTitle("MZAlertController", for: .normal)
         btn.setTitleColor(.brown, for: .normal)
         return btn
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     lazy var sheetBtn: UIButton = {
         let btn = UIButton.init(type: .custom)
-        btn.frame = CGRect.init(x: (SCREEN_WIDTH - 180) / 2, y: 200, width: 180, height: 40)
+        btn.frame = CGRect.init(x: (SCREEN_WIDTH - 220) / 2, y: 200, width: 220, height: 40)
         btn.setTitle("MZActionSheetController", for: .normal)
         btn.setTitleColor(.brown, for: .normal)
         return btn

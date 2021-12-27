@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class MZAlertController: UIViewController {
+open class MZAlertController: UIViewController {
 
     public override var modalTransitionStyle: UIModalTransitionStyle {
         get {
@@ -23,7 +23,7 @@ public class MZAlertController: UIViewController {
         set {}
     }
     
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .clear
         
@@ -39,7 +39,7 @@ public class MZAlertController: UIViewController {
         visualView.addGestureRecognizer(tap)
     }
     
-    @objc public func dismissController() {
+    @objc open func dismissController() {
         
     }
 }

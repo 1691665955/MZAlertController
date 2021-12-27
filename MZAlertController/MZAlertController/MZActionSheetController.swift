@@ -7,22 +7,22 @@
 
 import UIKit
 
-public class MZActionSheetController: UIViewController {
+open class MZActionSheetController: UIViewController {
 
-    public var Height: CGFloat!
+    open var Height: CGFloat!
     var mzDelegate: MZActionSheetDelegate!
     
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
         setDelegate()
     }
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+    public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil);
         setDelegate()
     }

@@ -7,23 +7,23 @@
 
 import UIKit
 
-class MZAlertController: UIViewController {
+public class MZAlertController: UIViewController {
 
-    override var modalTransitionStyle: UIModalTransitionStyle {
+    public override var modalTransitionStyle: UIModalTransitionStyle {
         get {
             return .crossDissolve
         }
         set {}
     }
     
-    override var modalPresentationStyle: UIModalPresentationStyle {
+    public override var modalPresentationStyle: UIModalPresentationStyle {
         get {
             return .overFullScreen
         }
         set {}
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .clear
         
@@ -39,7 +39,7 @@ class MZAlertController: UIViewController {
         visualView.addGestureRecognizer(tap)
     }
     
-    @objc open func dismissController() {
+    @objc public func dismissController() {
         
     }
 }

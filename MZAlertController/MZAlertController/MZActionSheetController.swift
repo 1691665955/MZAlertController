@@ -7,12 +7,12 @@
 
 import UIKit
 
-class MZActionSheetController: UIViewController {
+public class MZActionSheetController: UIViewController {
 
-    open var Height: CGFloat!
+    public var Height: CGFloat!
     var mzDelegate: MZActionSheetDelegate!
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
     }

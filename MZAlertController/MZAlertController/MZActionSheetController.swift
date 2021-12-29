@@ -9,7 +9,7 @@ import UIKit
 
 open class MZActionSheetController: UIViewController {
 
-    open var Height: CGFloat!
+    public var Height: CGFloat!
     var mzDelegate: MZActionSheetDelegate!
     
     open override func viewDidLoad() {
@@ -19,12 +19,12 @@ open class MZActionSheetController: UIViewController {
     
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
-        setDelegate()
+        self.setDelegate()
     }
     
     public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil);
-        setDelegate()
+        self.setDelegate()
     }
     
     func setDelegate() {

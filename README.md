@@ -32,7 +32,7 @@ override func dismissController() {
 
 - Height
 
- 此参数必须设置，Height表示ActionSheet弹出的高度，根据实际情况设置，注意兼容iPhoneX的底部安全高度,在
+ 此参数必须设置，Height表示ActionSheet弹出的高度，根据实际情况设置，注意兼容iPhoneX的底部安全高度
  
  ```
 override func viewDidLoad() {
